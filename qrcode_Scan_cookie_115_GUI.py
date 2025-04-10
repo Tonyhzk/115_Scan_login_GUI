@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-
-"扫码获取 115 cookie (GUI Version)"
+"""
+扫码获取 115 cookie (GUI Version)
+Original author: ChenyangGao <https://chenyanggao.github.io>
+Modified by: Tonyhzk <https://github.com/Tonyhzk>
+Modifications include: [GUI layout add, error handling improvements]
+"""
 
 __author__ = "ChenyangGao <https://chenyanggao.github.io>"
-__version__ = (0, 0, 5) # Version updated for GUI layout fix
+__contributors__ = "Tonyhzk <https://github.com/Tonyhzk>"
+__version__ = (0, 0, 1) # Version updated for GUI layout fix
 __all__ = [
     "AppEnum", "get_qrcode_token", "get_qrcode_status", "post_qrcode_result",
     "get_qrcode", "login_with_qrcode",
